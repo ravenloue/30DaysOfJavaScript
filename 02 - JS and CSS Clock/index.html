@@ -3,18 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>JS + CSS Clock</title>
-  <link rel="icon" href="https://fav.farm/🔥" />
+  <link rel="icon" href="https://fav.farm/🕒" />
 </head>
 <body>
-
-
-    <div class="clock">
+    <main class="clock">
       <div class="clock-face">
         <div class="hand hour-hand"></div>
         <div class="hand min-hand"></div>
         <div class="hand second-hand"></div>
       </div>
-    </div>
+    </main>
 
 
   <style>
@@ -63,13 +61,13 @@
       background: black;
       position: absolute;
       top: 50%;
+      transform-origin: 100%; /* sets the pivot point to the far right side */
+      transform: rotate(90deg); /* default state of the clock is 12:00:00 */
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     }
-
   </style>
 
-  <script>
-
-
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
