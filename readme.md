@@ -39,14 +39,23 @@ The creator does provide walk through videos and solutions for each day if I get
 - HTML5
 - CSS3
 
-
 ### What I learned
 
-(to be updated)
+2023:
+- Dec 16
+  - Vanilla CSS has dynamic variables built in
+
+- Dec 15
+  - KeyboardEvent.keycode is deprecated. Using "key" or "code" is the proper way to use this functionality. This is also a more accessible option as it allows for a variety of input devices or keyboard layouts.
+  - I can move the origin of transformations for an even greater level of control.
 
 ### Continued development
 
-(to be updated)
+- ADD A MAIN PAGE that links to the other pages
+
+- I want to add more mobile functionality to the drum kit
+- Add the ability to save more clocks to the clock page
+- Give the user the ability to change the image at random or add other functionality to the Variables page
 
 ### Useful resources
 
